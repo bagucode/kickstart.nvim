@@ -971,6 +971,9 @@ require('lazy').setup({
     dependencies = {
       'nvim-lua/plenary.nvim',
     },
+    keys = {
+      { '<leader>lg', '<cmd>LazyGit<cr>', desc = 'LazyGit' },
+    },
   },
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
