@@ -88,6 +88,8 @@ vim.o.tabstop = 4
 
 if vim.fn.has 'win32' == 1 then
   vim.o.guifont = 'Inconsolata Nerd Font:h12'
+else
+  vim.o.guifont = 'Hack Nerd Font:h12'
 end
 
 -- Set <space> as the leader key
